@@ -4,4 +4,4 @@
 ### Contacts
 
 <h5> Telegram --> @ - https://t.me/Nxanyx @Nxanyx</h5>
-<h5> Twitter --> @FEDERICOSCHI_ - https://tik</h5>
+<h5> Tiktok --> @Nebbi._ - https://www.tiktok.com/@nebbi._?is_from_webapp=1&sender_device=pc</h5>
