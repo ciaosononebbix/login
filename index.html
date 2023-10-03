@@ -1,43 +1,23 @@
-                                                       <li class="nav-item">
-                        <a class="nav-link bottom-nav" href="https://ciaosononebbix.github.io/login">
-                                                    <span data-toggle="tooltip" data-placement="right" data-offset="0 10px" title="" data-original-title="Accesso"><i class="fa-solid fa-arrow-right-to-bracket"></i></span> Accesso
-                                                </a>
-                    </li>
-                                                                <li class="nav-item">
-                        <a class="nav-link bottom-nav" href="https://ciaosononebbix.github.io/register">
-                                                    <span data-toggle="tooltip" data-placement="right" data-offset="0 10px" title="" data-original-title="Registrazione"><i class="fa-solid fa-user-plus"></i></span> Registrazione
-                                                </a>
-                    </li>
-                                    
-        </ul>
-    </div>
+<form action="action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="img_avatar2.png" alt="Avatar" class="avatar">
+  </div>
 
-    <div class="overlay"></div>
-    
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
 
-        <div class="container top-container">
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
 
-            
-                                                                                <div class="card mb-3 mt-3 welcome-card">
-                        <div class="card-body">
-                            <div class="welcome-card-flex">
-                                <div class="welcome-av-col">
-                                    <picture>
-                                        <source srcset="none" media="(max-width: 767px)">
-                                        <source srcset="https://s.namemc.com/3d/skin/body.png?id=b7db695739ff101a&amp;model=classic&amp;theta=32&amp;phi=19&amp;time=90&amp;width=150&amp;height=200" media="(min-width: 768px)">
-                                        <img src="./Forum • Lyzard_files/body.png" alt="Avatar" class="welcome-avatar">
-                                    </picture>
-                                </div>
-                                <div class="welcome-text-col">
-                                    <span class="welcome-title">Benvenuto in Nebbix</span><br>
-                                    <span class="welcome-text">registrati o fai il login!</span><br>
-                                </div>
-                                <div class="welcome-lr-col">
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
 
-                                                                                                                                                        <a class="btn btn-theme" href="https://www.lyzard.cc/login/" target="">Accesso</a>
-                                                                                                                                                                                                                                    <a class="btn btn-theme" href="https://www.lyzard.cc/register/" target="">Registrazione</a>
-                                                                                                            
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password</a></span>
+  </div>
+</form>
